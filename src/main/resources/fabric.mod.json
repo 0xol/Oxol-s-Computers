@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "oxols-computers",
+	"version": "${version}",
+	"name": "Oxol's Computers",
+	"description": "Computers rule",
+	"authors": [
+		"0xol"
+	],
+	"contact": {
+		"homepage": "https://github.com/0xol/Oxol-s-Computers",
+		"sources": "https://github.com/0xol/Oxol-s-Computers"
+	},
+	"license": "MIT",
+	"icon": "assets/oxols-computers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "oxol.oxolscomputers.OxolsComputers",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "oxol.oxolscomputers.OxolsComputersClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"oxols-computers.mixins.json",
+		{
+			"config": "oxols-computers.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.18",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.8.20"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
