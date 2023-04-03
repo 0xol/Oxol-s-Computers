@@ -1,3 +1,5 @@
 {
-    "item.oxolscomputers.t1_cpu": "Tier 1 CPU"
+    "item.oxolscomputers.t1_cpu": "Tier 1 CPU",
+    "item.oxolscomputers.t2_cpu": "Tier 2 CPU",
+    "item.oxolscomputers.t3_cpu": "Tier 3 CPU"
 }
