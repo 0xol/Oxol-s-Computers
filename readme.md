@@ -1,5 +1,7 @@
 ## Todo list
 - [x] register creative menu
+- [ ] item registration and defintion subsystem
+- [ ] block registration and definiton subsystem
 - [ ] add ultrakill reference
 - [ ] simple rv32 emulation and hardware discovery
 - [ ] add cpu tiers (clock speed and max connected hardware)
